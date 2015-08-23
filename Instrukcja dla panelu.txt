@@ -1,0 +1,47 @@
+﻿
+
+===============================================================
+                    LICENCJA
+
+1. Jeśli chcesz udostępnić pliki podaj 
+3. Nie zmodyfikujesz stopki panelu tj. nie usuniesz/zmodyfikujesz jej hiperłączy jak i tekstu
+4. Masz prawo do pełnych modyfikacji panelu, poza pkt. nr3
+=================================================================
+
+
+Instalacja:
+
+1. Stwórz nową bazę danych, zapamiętaj dane do niej 
+2. Umieść pliki z katalogu „panel www” na serwerze WWW, nadaj im najwyższe uprawnienia 
+3. Otwórz folder z plikami panelu w przedlądarce internetowej, przeprowadź instalację i konfigurację panelu
+   - Przygotuj : dane do połączenia z bazą MySQL, informacje o serwerze(np:. nazwa, adres panelu, linki do loga, email), dane partnera płatnościowego, dane konta MC, plik konfiguracyjny serwera MC
+4. Jeśli nie chcesz korzystać z jakiegoś pluginu, po prostu nie wrzucaj go na serwer, zaś w pliku "menu.php" zmodyfikuj dostępne zakładki panelu usuwając np: linie z odnośnikiem do np:. "mcmmo.php"
+5. Jeśli chcesz korzystać z fomularza kontaktowego, otwórz plik "kontakt.php", następinie odszukaj linie: "$to      = 'patryk0493@gmail.com';" i podmień email na który mają docierać wiadomości
+6. Załączam także pluginy, w ich plikach konfiguracyjnych należy zmienić takie wartości jak np.: "użytkownik", "adres", "baza_danych", "hasło" - zgodnie z danymi dostępu do bazy MySQL
+
+
+Kilka uwag:
+- Jeśli konfiguracja lub instalacja Cię przerasta - mogę zrobić to za Ciebie za opłatą
+- Panel testowany był od wersji gry 1.2.5 do 1.6.4, włacząc w to maszyny dedykowane, VPS jak i tradycyjne slotowe hostingi, dlatego też wystąpienie problemów z przyczyn błedów w skrypcie jest bliskie 0.
+	jeśli coś nie działa dokładnie sprawdź konfigurację serwera gry, bazy MYSQL oraz serwera WWW (plików skryptu).
+	Nie udzielam bezpłatnej pomocy podczas konfiguracji i instalacja panelu, tak kwestia leży w intencji kupującego
+- Nie zaleca się stosowania polskich znaków w bazie danych jak i samodzielnego jej uzupełniania
+- Nie polecam korzystać z tanich hostingów WWW np: proserwer.pl - są one problematyczne
+- Im więcej serwerów działa na jednej maszynie (np: serwer Minecraft, WWW i MySQL) tym łatwiej przeprowadzić konfigurację - nie musimy nikogo prosić o otwarcie portów lub dodanie IP do WhiteList, kolejne zalety to szybkość i niezawodność
+- Z panelu możemy korzystać np:. z hostingu disconnect.pl (tam będzie serwer oraz baza MySQL), zaś skorzystamy z innego hostingu WWW np: mzone.pl
+		Co trzeba zrobić, aby panel współgrał?
+		1. Napisz do firmy hostującej serwer gry oraz baz o dodanie na whitelist IP Twojego serwera WWW (musisz znać IP serwera Minecraft) 
+		2. Skontaktuj się z hostingiem WWW: poproś o otwarcie portu Query serwera Minecraft (te dane wprowadzasz w pliku konfiguracyjnym lub hosting minecraft sam ustala port) oraz
+		dodanie do wl: IP serwera Minecraft + adresu bazy danych
+- Masz błędy z połączniem RCON? Zapewne nie są poprawnie ustawione dane połączenia lub twój hosting blokuje połączenia socketowe, napisz do supportu twoich serwerów o pomoc
+
+
+Kontakt:
+=======================
+Patryk Eliasz
+
+email: patryk0493@gmail.com
+gg: 8186874
+skype: eliaszpatryk
+www: patrykeliasz.pl
+=======================

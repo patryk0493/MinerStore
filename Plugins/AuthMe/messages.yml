@@ -1,0 +1,32 @@
+logged_in: '&fJestes juz zalogowany!'
+not_logged_in: '&4Nie jestes zalogowany!'
+reg_disabled: '&4Rejestracja jest wylaczona'
+user_regged: '&4Gracz juz jest zarejestrowany'
+usage_reg: '&2Uzyj: /register <haslo> <haslo>'
+usage_log: '&2Uzyj: /login <haslo>'
+user_unknown: '&fGracz nie jest zarejestrowany'
+pwd_changed: '&fHaslo zostalo zmienione!'
+reg_only: Moga grac gracze tylko zarejestrowani
+valid_session: '&cSession login'
+login_msg: '&bZaloguj sie wpisujac: &f"/login <haslo>"'
+reg_msg: '&bZarejestruj sie wpisujac: &f"/register <haslo> <haslo>"'
+timeout: Za dlugie logowanie !
+wrong_pwd: '&4Zle haslo'
+logout: '&2Pomysle zalogowanie'
+usage_unreg: '&cOdrejestrowanie: /unregister <password>'
+registered: '&2Pomyslnie zarejestrowany!'
+unregistered: '&2Pomyslnie odrejestrowany!'
+login: '&fPomyslnie zalogowany!'
+no_perm: '&2Nie masz uprawnien'
+same_nick: Ktos ma taki sam nick !
+reg_voluntarily: You can register your nickname with the server with the command "/register password ConfirmPassword"
+reload: Konfiguracja bazy danych zostala przeladowana
+error: Blad prosimy napisac do aministracji
+unknown_user: Uzytkownika nie ma w bazie danych.
+unsafe_spawn: Zostajesz przeteleportowany na spawn.
+unvalid_session: Prosimy poczekac na koniec sesji.
+max_reg: Ktos jest zarejestrowany na takim samym IP.
+password_error: Haslo nie pasuje.
+pass_len: Haslo nie ma minimalnej dlugosci.
+vb_nonActiv: Your Account isent Activated yet check your Emails!
+usage_changepassword: 'Uzyj: /changepassword <stare_haslo> <nowe_haslo>'

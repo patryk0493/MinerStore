@@ -1,0 +1,22 @@
+# Title configuration
+Titles:
+  Nowicjusz:
+    Name: Nowicjusz
+    ShortName: <N>
+    ChatColour: WHITE
+    levelReq: 0
+  Junior:
+    Name: Junior
+    ShortName: <J>
+    ChatColour: GRAY
+    levelReq: 30
+  Senior:
+    Name: Senior
+    ShortName: <S>
+    ChatColour: GOLD
+    levelReq: 60
+  Mistrz:
+    Name: Mistrz
+    ShortName: <M>
+    ChatColour: BLACK
+    levelReq: 90

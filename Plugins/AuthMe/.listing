@@ -1,0 +1,5 @@
+drwxr-xr-x   2 crazydax jail         4096 Jun  7 17:56 .
+drwxr-xr-x  43 crazydax jail         4096 Aug 17 17:36 ..
+-rw-r--r--   1 crazydax jail         2846 Jul  5 10:42 auths.db
+-rw-r--r--   1 crazydax jail         1627 Aug 17 18:42 config.yml
+-rw-r--r--   1 crazydax jail         1519 Aug 17 18:42 messages.yml

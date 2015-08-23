@@ -1,0 +1,22 @@
+general:
+  language: pl
+  update-delay: 30
+  achievements: true
+  text_color: ''
+  data_color: ''
+  debug: false
+  awardInfo: true
+database:
+  type: mysql
+  table_prefix: ''
+  host: localhost
+  port: 3306
+  database: baza_danych
+  user: uzytkownik
+  password: haslo
+DisableCreative: false
+SimpleSpleefSupport: false
+ForcePlaytimeUpdate: false
+DisabledWorlds:
+- disabledworld1
+- disabledworld2

@@ -1,0 +1,36 @@
+#   The general configuration for the jobs plugin mostly includes how often the plugin
+# saves user data (when the user is in the game), the storage method, whether
+# to broadcast a message to the server when a user goes up a skill level.
+#   It also allows admins to set the maximum number of jobs a player can have at
+# any one time.
+
+# storage method, can be MySQL, sqlite, h2
+storage-method: MySQL
+# Requires Mysql.
+mysql-username: uzytkownik
+mysql-password: haslo
+mysql-url: jdbc:mysql://localhost:3306/baza_danych
+mysql-table-prefix: ''
+# How often in minutes you want it to save, 0 disables periodic saving and
+# the system will only save on logout
+save-period: 10
+# Do all players get a message when somone goes up a skill level?
+broadcast-on-skill-up: true
+# Do all players get a message when somone goes up a level?
+broadcast-on-level-up: true
+# Maximum number of jobs a player can join.
+# Use 0 for no maximum
+max-jobs: 1
+# Hide jobs from player if they lack the permission to join the job
+hide-jobs-without-permission: false
+# option to allow payment to be made when killing mobs from a spawner
+enable-pay-near-spawner: true
+# option to allow payment to be made in creative mode
+enable-pay-creative: false
+# Modifys chat to add chat titles.  If you're using a chat manager, you may add the tag {jobs} to your chat format and disable this.
+modify-chat: true
+# Changes how how many players are paid per payment batch.  Setting this too high may cause tick lag.
+economy-batch-size: 10
+# Changes how often, in seconds, players are paid out.  Default is 5 seconds.
+# Setting this too low may cause tick lag.  Increase this to improve economy performance (at the cost of delays in payment)
+economy-batch-delay: 5

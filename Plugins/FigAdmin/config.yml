@@ -1,0 +1,42 @@
+mysql: true
+mysql-database: jdbc:mysql://localhost:3306/baza_danych_mysql
+mysql-user: uzytkownik
+mysql-password: haslo
+mysql-table: banlist
+auto-complete: true
+ip-ban: false
+bans-to-banned-players: false
+auto-ban-on-warnings: -1
+auto-ban-time: 1 day
+messages:
+  banMsgFailed: '&cPlayer &e%victim% &cis already banned!'
+  unbanMsg: '&aSuccessfully unbanned player &e%victim%&a!'
+  unbanMsgGlobal: '&e%victim% &6was unbanned by &e%player%&6!'
+  unbanMsgFailed: '&cFailed to unban &e%victim%&c!'
+  kickAllMsg: '%player% kicked everyone. Reason: %reason%'
+  kickDefaultReason: '&eBooted from server!'
+  kickGobalDefaultRason: '&eGlobal kick'
+  kickMsgVictim: 'You have been kicked by %player%. Reason: %reason%'
+  kickMsgBroadcast: '&e%victim% &6was kicked by &e%player%&6. Reason: &e%reason%'
+  kickMsgFailed: '&cKick failed: &6%victim% &cisn''t online.'
+  banMsgVictim: '&eYou have been banned by &e%player%&f.&6 Reason: %reason%'
+  banMsgBroadcast: '&e%victim% &6was banned by &e%player%&f.&6 Reason: &e%reason%'
+  banDefaultReason: '&eBan Hammer has Spoken!'
+  banOffline: '&eWarning: &8Player &a%player%&8 has not been on this server before.'
+  tempbanMsgVictim: 'You have been temp. banned by %player%. Reason: %reason%'
+  tempbanMsgBroadcast: '&e%victim% &6was temp. banned by &e%player%&6. Reason: &e%reason%'
+  LoginTempban: '&cYou are banned until &e%time%&c! Reason: &e%reason%'
+  LoginBan: '&cYou are banned from this server! Reason: &e%reason%'
+  LoginIPBan: '&cThis IP is banned!'
+  badPlayerName: '&cBad player name!'
+  playerNotOnline: '&cPlayer &e%player% &cis not online.'
+  warnMsgBroadcast: '&cPlayer &e%player%&f received a warning from &c%kicker%&f:'
+  warnMsgVictim: '&cYou have received a warning from &c%player%&f:'
+  reloadMsg: '&aReloaded FigAdmin.'
+  exportMsg: '&aExported banlist to banned-players.txt'
+  playerBanned: '&cPlayer %player% is banned.'
+  playerNotBanned: '&aPlayer %player% is not banned.'
+  ipBan: '&eIP banning is'
+  noPermission: '&cYou don''t have permission to do this.'
+  warnDeleted: '&aAll %number% warnings cleared for player &e%player%&a.'
+  warnNone: '&cNo warnings found for player &e%player%&c!'

@@ -1,0 +1,178 @@
+# Jobs configuration.
+# 
+# Stores information about each job.
+# 
+# For example configurations, visit http://dev.bukkit.org/server-mods/jobs/.
+
+Jobs:
+  Drwal:
+    fullname: Drwal
+    shortname: <Drw>
+    ChatColour: GREEN
+    chat-display: none
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.01)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.01)^(joblevel-1))
+    Break:
+      LOG:
+        income: 0.14
+        experience: 0.6
+    Place:
+      SAPLING:
+        income: 0.14
+        experience: 0.6
+    Kill:
+      Player:
+        income: 0.4
+        experience: 0.2
+  Gornik:
+    fullname: Gornik
+    shortname: <G>
+    ChatColour: YELLOW
+    chat-display: none
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.01)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.01)^(joblevel-1))
+    Break:
+      STONE:
+        income: 0.02
+        experience: 0.2
+      COAL_ORE:
+        income: 0.1
+        experience: 0.35
+      REDSTONE_ORE:
+        income: 0.1
+        experience: 0.35
+      IRON_ORE:
+        income: 0.15
+        experience: 0.5
+      GOLD_ORE:
+        income: 0.1
+        experience: 0.75
+      LAPIS_ORE:
+        income: 0.25
+        experience: 0.75
+      DIAMOND_ORE:
+        income: 0.4
+        experience: 0.75
+      EMERALD_ORE:
+        income: 0.4
+        experience: 0.75
+      OBSIDIAN:
+        income: 0.5
+        experience: 0.75
+      MOSSY_COBBLESTONE:
+        income: 0.6
+        experience: 0.25
+      DIRT:
+        income: 0.05
+        experience: 0.05
+      GRASS:
+        income: 0.05
+        experience: 0.05
+      GRAVEL:
+        income: 0.1
+        experience: 0.05
+      SAND:
+        income: 0.1
+        experience: 0.05
+      CLAY:
+        income: 0.1
+        experience: 0.05
+    Kill:
+      Player:
+        income: 0.4
+        experience: 0.2
+  Farmer:
+    fullname: Farmer
+    shortname: <Fa>
+    ChatColour: BLUE
+    chat-display: none
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.01)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.01)^(joblevel-1))
+    Break:
+      CROPS-7:
+        income: 0.3
+        experience: 0.05
+      CARROT:
+        income: 0.3
+        experience: 0.05
+      POTATO:
+        income: 0.3
+        experience: 0.05
+      BROWN_MUSHROOM:
+        income: 0.25
+        experience: 0.125
+    Place:
+      CACTUS:
+        income: 0.1
+        experience: 0.05
+    Brew:
+      APPLE:
+        income: 0.2
+        experience: 0.075
+      BREAD:
+        income: 0.2
+        experience: 0.075
+      LEATHER:
+        income: 0.2
+        experience: 0.075
+      SUGAR:
+        income: 0.2
+        experience: 0.075
+      SUGAR_CANE:
+        income: 0.2
+        experience: 0.075
+    Kill:
+      Player:
+        income: 0.4
+        experience: 0.2
+  Wojownik:
+    fullname: Wojownik
+    shortname: <M>
+    ChatColour: GOLD
+    chat-display: none
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.01)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.01)^(joblevel-1))
+    Kill:
+      Chicken:
+        income: 0.2
+        experience: 0.5
+      Cow:
+        income: 0.3
+        experience: 0.5
+      Pig:
+        income: 0.3
+        experience: 0.5
+      Sheep:
+        income: 0.2
+        experience: 0.5
+      Wolf:
+        income: 0.2
+        experience: 0.7
+      Creeper:
+        income: 0.2
+        experience: 0.7
+      Skeleton:
+        income: 0.2
+        experience: 0.5
+      Spider:
+        income: 0.2
+        experience: 0.5
+      Zombie:
+        income: 0.2
+        experience: 0.5
+      Enderman:
+        income: 0.2
+        experience: 0.5
+      Ghast:
+        income: 0.3
+        experience: 0.7
+      Ocelot:
+        income: 0.3
+        experience: 0.7
+      Player:
+        income: 1.0
+        experience: 6.0

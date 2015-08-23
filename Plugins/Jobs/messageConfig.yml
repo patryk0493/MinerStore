@@ -1,0 +1,112 @@
+# Configuration file for the messages
+# 
+# Replace the messages if you want.
+# 
+# ChatColor.<Color> will make any words following (including spaces that colour).
+# 
+# Supported colors:
+#    BLACK
+#    DARK_BLUE
+#    DARK_GREEN
+#    DARK_AQUA
+#    DARK_RED
+#    DARK_PURPLE
+#    GOLD
+#    GRAY
+#    DARK_GRAY
+#    BLUE
+#    GREEN
+#    AQUA
+#    RED
+#    LIGHT_PURPLE
+#    YELLOW
+#    WHITE
+# 
+# Each message has slightly different parameters. The parameters available
+# are the ones that are already in the message (and none others)
+# 
+# NOTE:
+#   Any character other than normal characters will not get read and will crash the 
+# configuration.
+
+
+stats-no-job: ChatColor.DARK_REDProsze dolaczyc do prac uzywajac ChatColor.WHITE/jobs browse.
+stats-job: 'lvl%joblevel% %jobcolour%%jobname%ChatColor.WHITE : %jobexp%/%jobmaxexp%
+  exp'
+browse-no-jobs: There are no jobs you can join.
+browse-jobs-header: Jak sie zdecydujesz na prace , wpisz /jobs join <nazwa_zawodu>
+browse-jobs-footer: Informacje o zawodzie , wpisz /jobs info <nazwa_zawodu>
+admin-command-success: Your command has been performed.
+admin-command-failed: ChatColor.REDThere was an error in the command.
+fire-target: You have been fired from %jobcolour%%jobname%.
+fire-target-no-job: Plyer does not have the job %jobcolour%%jobname%.
+employ-target: You have been employed in %jobcolour%%jobname%.
+promote-target: You have been promoted %levelsgained% levels in %jobcolour%%jobname%.
+demote-target: You have been demoted %levelslost% levels in %jobcolour%%jobname%.
+grantxp-target: You have been granted %expgained% experience in %jobcolour%%jobname%.
+removexp-target: You have lost %explost% experience in %jobcolour%%jobname%.
+transfer-target: Gratulacje , zostales powolany do pracy
+join-too-many-jobs: Mozesz miec tylko jedna prace !
+jobs-browse: ChatColor.DARK_RED/jobs browseChatColor.WHITE - Lista wszystkich prac .
+jobs-join: ChatColor.DARK_RED/jobs join <nazwa>ChatColor.WHITE - Dolacz do danej pracy .
+jobs-leave: ChatColor.DARK_RED/jobs leave <nazwa>ChatColor.WHITE - Opusc dana prace .
+jobs-stats: ChatColor.DARK_RED/jobs statsChatColor.WHITE - Statystyki o twoim zawodzie .
+jobs-info: ChatColor.DARK_RED/jobs info <nazwa>ChatColor.WHITE - Informacje o twoim zwodzie .
+jobs-admin-info: ChatColor.DARK_RED/jobs admininfo <playernick>ChatColor.WHITE - Zobacz informacje o pracy danego gracza
+jobs-admin-fire: ChatColor.DARK_RED/jobs fire <playernick> <praca>ChatColor.WHITE - .
+jobs-admin-employ: ChatColor.DARK_RED/jobs employ <playernick> <praca>ChatColor.WHITE - Danie .
+jobs-admin-promote: ChatColor.DARK_RED/jobs promote <playernick> <praca> <lvl>ChatColor.WHITE - Danie graczowi odpowiedni lvl.
+jobs-admin-demote: ChatColor.DARK_RED/jobs demote <playernick> <praca> <lvl>ChatColor.WHITE - Zmniejszenie lvl pracy danego gracza .
+jobs-admin-grantxp: ChatColor.DARK_RED/jobs grantxp <playernick> <praca> <exp>ChatColor.WHITE - Powiekszenie exp'a dla pracy danego gracza
+jobs-admin-removexp: ChatColor.DARK_RED/jobs removexp <playernick> <praca> <exp>ChatColor.WHITE - Usuniecie exp'a pracy danego gracza
+jobs-admin-transfer: ChatColor.DARK_RED/jobs transfer <playernick> <starapraca> <nowapraca>ChatColor.WHITE     - Przeniesienie gracza do innej pracy
+jobs-admin-reload: ChatColor.DARK_RED/jobs reloadChatColor.WHITE - Odswiezenie pluginu jobs .
+break-header: 'ChatColor.DARK_REDRozwalenie:'
+place-header: 'ChatColor.DARK_REDPlace:'
+kill-header: 'ChatColor.DARK_REDZabijanie:'
+fish-header: 'ChatColor.DARK_REDZlowic:'
+craft-header: 'Craft:'
+smelt-header: 'Smelt:'
+brew-header: 'Brew:'
+enchant-header: Enchant
+break-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.DARK_REDZloteChatColor.WHITE. %experience% ChatColor.YELLOWexp
+break-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColorGREENZloteChatColor.WHITE. %experience% ChatColor.YELLOWexp
+place-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.DARK_REDZloteChatColor.WHITE. %experience% ChatColor.YELLOWexp
+place-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.DARK_REDZloteChatColor.WHITE. %experience% ChatColor.YELLOWexp
+kill-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.DARK_REDZloteChatColor.WHITE. %experience% ChatColor.YELLOWexp
+kill-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.DARK_REDZloteChatColor.WHITE. %experience% ChatColor.YELLOWexp
+fish-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.DARK_REDZloteChatColor.WHITE. %experience% ChatColor.YELLOWexp
+fish-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.DARK_REDZloteChatColor.WHITE. %experience% ChatColor.YELLOWexp
+craft-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.DARK_REDZloteChatColor.WHITE. %experience% ChatColor.YELLOWexp
+craft-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.DARK_REDZloteChatColor.WHITE. %experience% ChatColor.YELLOWexp
+smelt-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+smelt-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+brew-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+brew-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+enchant-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+enchant-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+break-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money for breaking anything.'
+place-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money for placing anything.'
+kill-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money for killing anything.'
+fish-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money for fishing.'
+craft-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money from crafting.'
+smelt-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money from smelting.'
+brew-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money from brewing.'
+enchant-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money from enchanting.'
+at-max-level: ChatColor.GREEN-- Osiagnales max poziom --
+skill-up-broadcast: '%playername% awansowal na %titlecolour% w zawodzie %titlename%
+  %jobcolour%%jobname%ChatColor.WHITE.'
+skill-up-no-broadcast: Congratulations, you have been promoted to a %titlecolour%%titlename% %jobcolour%%jobname%ChatColor.WHITE.
+level-up-broadcast: ChatColor.GREEN%playername%ChatColor.WHITE Osiagnal ChatColor.GREEN%joblevel% level ChatColor.WHITEw zawodzie %jobcolour%%jobname%ChatColor.WHITE
+level-up-no-broadcast: You are now a level %joblevel% %jobcolour%%jobname%ChatColor.WHITE.
+join-job-success: ChatColor.DARK_REDDolaczyles do zawodu %jobcolour%%jobname%ChatColor.WHITE.
+join-job-failed-already-in: You are already in the job %jobcolour%%jobname%ChatColor.WHITE.
+join-job-failed-too-many: You have already joined too many jobs.
+join-job-failed-no-slots: You cannot join the job %jobcolour%%jobname%ChatColor.WHITE, there are no slots available.
+leave-job-sucess: You have left the job %jobcolour%%jobname%ChatColor.WHITE.
+error-no-job: ChatColor.REDWybrales zawod ktorego nie ma!
+error-no-permission: ChatColor.DARK_REDNie masz permissions!
+join-too-many-job: ChatColor.DARK_REDMozesz miec jeden zawod .
+leave-job-failed-too-many: ChatColor.REDMozesz miec tylko jeden zawod
+leave-job-success: ChatColor.DARK_REDOpusciles zwod .
+jobs-admin-promotte: ChatColor.DARK_RED/jobs promote <playernick> <praca> <lvl>ChatColor.WHITE - Powiekszenie lvl pracy danego gracza .
